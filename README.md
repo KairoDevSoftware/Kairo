@@ -21,13 +21,13 @@ Abre `index.html` en el navegador (doble clic). No necesita servidor.
 
 ## Publicar en GitHub Pages
 
-Publicada en **https://darkcodeknight25.github.io/kairo/** (repositorio `DarkCodeKnight25/kairo`, rama `main`, carpeta raíz). Cada `git push` a `main` actualiza la web en uno o dos minutos.
+Publicada en **https://darkcodeknight25.github.io/Kairo/** (repositorio `DarkCodeKnight25/Kairo`, rama `main`, carpeta raíz). Cada `git push` a `main` actualiza la web en uno o dos minutos.
 
 ### Al comprar el dominio propio
 
 1. Crear el archivo `CNAME` con el dominio (por ejemplo `kairo.com.pe`).
-2. Cambiar `https://darkcodeknight25.github.io/kairo/` por `https://<dominio>/` en `index.html`, `robots.txt` y `sitemap.xml`.
-3. En `404.html`, cambiar `<base href="/kairo/">` por `<base href="/">`.
+2. Cambiar `https://darkcodeknight25.github.io/Kairo/` por `https://<dominio>/` en `index.html`, `robots.txt` y `sitemap.xml`.
+3. En `404.html`, cambiar `<base href="/Kairo/">` por `<base href="/">`.
 4. En el panel del dominio, apuntar los registros DNS a GitHub Pages y activar **Enforce HTTPS** en Settings → Pages.
 
 ## Editar
