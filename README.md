@@ -19,16 +19,15 @@ robots.txt, sitemap.xml, .nojekyll
 
 Abre `index.html` en el navegador (doble clic). No necesita servidor.
 
-## Publicar en GitHub Pages
+## Publicación (Cloudflare Pages)
 
-Publicada en **https://darkcodeknight25.github.io/Kairo/** (repositorio `DarkCodeKnight25/Kairo`, rama `main`, carpeta raíz). Cada `git push` a `main` actualiza la web en uno o dos minutos.
+Publicada en **https://kairodev.pages.dev/** (proyecto `kairodev` en la cuenta de Cloudflare de Kairo, conectado al repositorio `KairoDevSoftware/Kairo`, rama `main`, carpeta raíz, sin comando de build). Cada `git push` a `main` actualiza la web en uno o dos minutos.
 
 ### Al comprar el dominio propio
 
-1. Crear el archivo `CNAME` con el dominio (por ejemplo `kairo.com.pe`).
-2. Cambiar `https://darkcodeknight25.github.io/Kairo/` por `https://<dominio>/` en `index.html`, `robots.txt` y `sitemap.xml`.
-3. En `404.html`, cambiar `<base href="/Kairo/">` por `<base href="/">`.
-4. En el panel del dominio, apuntar los registros DNS a GitHub Pages y activar **Enforce HTTPS** en Settings → Pages.
+1. En Cloudflare: proyecto `kairodev` → **Custom domains** → agregar el dominio (por ejemplo `kairodev.com`).
+2. Cambiar `https://kairodev.pages.dev/` por `https://<dominio>/` en `index.html`, `robots.txt` y `sitemap.xml`.
+3. `kairodev.pages.dev` sigue funcionando; no hace falta tocar `404.html` (usa `<base href="/">`).
 
 ## Editar
 

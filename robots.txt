@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://darkcodeknight25.github.io/Kairo/sitemap.xml
+Sitemap: https://kairodev.pages.dev/sitemap.xml
